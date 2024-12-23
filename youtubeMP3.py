@@ -34,3 +34,5 @@ match mode:
             print("Downloaded and converted to MP3 successfully!")
         except Exception as e:
             print(f"An error occurred: {e}")
+    case default:
+        print("Invalid input!")
